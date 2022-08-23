@@ -1,0 +1,44 @@
+.tableHeader{
+    border:none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 105%;
+    color:rgba(0,0,0,0.6);
+    transition: 0.2s ease;
+}
+
+.tableHeader:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+.tableHeader--sorted{
+    border:none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 105%;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin:auto;
+    margin-bottom: 5%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.dataRow:hover{
+    background-color: rgba(0,0,0,0.75);
+    color:white;
+    transition: 0.4s ease;
+}

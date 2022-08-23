@@ -1,0 +1,1 @@
+{"orderlist": [{"future": "MEDIA", "target": "30", "tolerance": "-0.3", "speed": 1, "status": ["failure: condition unmet", -0.5847953216374352], "api_key": "1lzuMlvkbTyhgf0qzqc7c_wGrrJQrPB0TZDt018f", "api_secret": "XAGNmVjiM6Zrdcv2FBhZzyUr5JS4HtJBTjw9LVKr", "subaccount": "MA01", "side": "positive", "cost": 0}]}
