@@ -11,6 +11,7 @@ In Backend Folder:
 7. db_update.py 每小時跟新數據的 script
 
 前端是用 React 寫的。平常會跑"npm run build"後把 html,css,js 檔移到後段資料夾。
+要跑前端的話要前後端都跑讓後去 localhost:3000。前端有 proxy 到 port 5000。
 
 TODO:
 
