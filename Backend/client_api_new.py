@@ -660,7 +660,8 @@ class FtxClient:
                 
                 with open(FILE_PATH,'r') as f:
                     rates_data = csv.reader(f)
-                    hundred_day_data = [float(x[1]) for x in rates_data][len(hundred_day_data)-2399:len(hundred_day_data)+1]
+                    hundred_day_data = [float(x[1]) for x in rates_data]
+                    hundred_day_data = hundred_day_data[len(hundred_day_data)-2399:len(hundred_day_data)+1]
 
                 fourty_day_data = hundred_day_data[:960]
                 twenty_day_data = fourty_day_data[:480]

@@ -1,10 +1,7 @@
-import matplotlib
 from numpy import true_divide
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 from flask import Flask, request, jsonify, render_template, redirect
 from flask_cors import CORS, cross_origin
-import client_api_new
+import client_api_new as client_api
 import json 
 
 app = Flask(__name__)
