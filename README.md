@@ -1,3 +1,5 @@
+An FTX crypto trading bot that uses React a frontend and Flask backend. The frontend is a UI that displays your current orders, and visualizes your net gain and loses as well as current crypto prices and an interface to make, customize, and cancel orders. The backend is calls the FTX API to make orders, cancel orders, and collect data from FTX. 
+
 跑之前把 API, APIKEY 加進去。
 
 In Backend Folder:
